@@ -15,9 +15,13 @@ Further options on this page detail installing commandline Solidity compiler sof
 
 ### Executing program
 Step 1:Copy the given code in Remix IDE Code Section.
+
 Step 2:Under Compile Tab, click Start to Compile button.
+
 Step 3:Under Run Tab, click Deploy button.
+
 Step 5:Under Run Tab, Select SolidityTest at 0x... in drop-down.
+
 Step 6:Click getResult Button to display the result.
 
 contract MyToken {
@@ -51,6 +55,7 @@ In essence, Solidity's error handling maintains atomicity as a trait. All state 
 
 ## Authors
 Poliana Javier Orcine
+
 @PolianaJavierOrcine
 
 
