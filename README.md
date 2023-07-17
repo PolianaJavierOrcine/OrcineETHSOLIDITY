@@ -26,7 +26,30 @@ Step 5:Under Run Tab, Select SolidityTest at 0x... in drop-down.
 
 Step 6:Click getResult Button to display the result.
 
-ORCINE_SOLIDITY.sol
+contract MyToken {
+
+    // public variables here
+string public tokenName="SOLIDITY";
+string public tokenAbbrv="SLIDTY";
+uint public totalSupply=0;
+
+    // mapping variable here
+    mapping(address => uint) public balances;
+
+    // Mint function
+    function mint(address recipient, uint value) public {
+        totalSupply += value;
+        balances[recipient] += value;
+    }
+    
+    // burn function
+function burn(address add, uint val) public {
+        if (balances[add] >= val){
+        totalSupply -= val;
+        balances[add] -= val; 
+        }
+    }
+}
 
 By selecting the "Deploy & Run Transactions" tab in the left-hand sidebar after the code has been compiled, you can launch the contract. From the drop-down menu, choose the "HelloWorld" contract, and then press the "Deploy" button.
 
