@@ -1,4 +1,5 @@
 #SOLIDITY
+
 Smart contracts can be created using Solidity, a high-level, contract-oriented programming language. Solidity is an object-oriented programming language developed expressly by the Ethereum Network team for developing and designing smart contracts on Blockchain systems. Solidity was intended to interact with the Ethereum Virtual Machine (EVM) and is significantly influenced by C++, Python, and JavaScript.
 
 ## Description
