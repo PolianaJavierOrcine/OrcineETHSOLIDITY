@@ -26,10 +26,13 @@ Step 5:Under Run Tab, Select SolidityTest at 0x... in drop-down.
 
 Step 6:Click getResult Button to display the result.
 
+'''javascipt
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
 contract MyToken {
 
     // public variables here
-
 
 string public tokenName="SOLIDITY";
 string public tokenAbbrv="SLIDTY";
@@ -37,11 +40,9 @@ uint public totalSupply=0;
 
     // mapping variable here
    
-    
-    mapping(address => uint) public balances;
+ mapping(address => uint) public balances;
 
     // Mint function
-    
     
     function mint(address recipient, uint value) public {
         totalSupply += value;
@@ -49,7 +50,6 @@ uint public totalSupply=0;
     }
     
     // burn function
-
 
 function burn(address add, uint val) public {
         if (balances[add] >= val){
