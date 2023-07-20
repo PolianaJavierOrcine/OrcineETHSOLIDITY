@@ -26,7 +26,7 @@ Step 5:Under Run Tab, Select SolidityTest at 0x... in drop-down.
 
 Step 6:Click getResult Button to display the result.
 
-'''javascipt
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -68,6 +68,7 @@ In essence, Solidity's error handling maintains atomicity as a trait. All state 
 ## Authors
 
 Poliana Javier Orcine
+Gmail-8210778@ntc.edu.ph
 
 @PolianaJavierOrcine
 
