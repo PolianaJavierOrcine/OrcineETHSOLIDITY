@@ -59,6 +59,7 @@ function burn(address add, uint val) public {
     }
 }
 
+
 By selecting the "Deploy & Run Transactions" tab in the left-hand sidebar after the code has been compiled, you can launch the contract. From the drop-down menu, choose the "HelloWorld" contract, and then press the "Deploy" button.
 
 ### Help
@@ -68,6 +69,7 @@ In essence, Solidity's error handling maintains atomicity as a trait. All state 
 ## Authors
 
 Poliana Javier Orcine
+
 Gmail-8210778@ntc.edu.ph
 
 @PolianaJavierOrcine
