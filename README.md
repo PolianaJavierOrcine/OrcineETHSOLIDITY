@@ -56,6 +56,12 @@ contract MyToken {
     }
 
 By selecting the "Deploy & Run Transactions" tab in the left-hand sidebar after the code has been compiled, you can launch the contract. From the drop-down menu, choose the "HelloWorld" contract, and then press the "Deploy" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile Assessment.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Assessment" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can copy to the clipboard and paste it on burn, mint and balances in the deployed contracts. Put any amount of token you want in value, so that you can mint it. Check the amount of token you minted in totalSupply and balances, Once you confirm it you can now burn it by puttting how much the amount of tokens you want to burn because it will be subtracted to the tokens that minted then click on the "burn" function. Finally, click on the "transact" button to execute the function and you will see how much tokens you have left.
+
 
 ### Help
 
